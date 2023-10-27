@@ -1,0 +1,127 @@
+*{ 
+    box-sizing: border-box; 
+} 
+h4{ 
+    background-color:grey; 
+    color:whitesmoke; 
+    padding: 15px; 
+} 
+.section-one{ 
+    width:100%; 
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+} 
+.left{ 
+    width:500px;  
+} 
+ 
+ul{ 
+    display:flex; 
+} 
+.list{ 
+    font-weight: 600; 
+    justify-content: left; 
+    width:200px;
+} 
+.right{ 
+    width:500px;     
+} 
+h1{ 
+    color: blueviolet; 
+} 
+.contact{ 
+    color: black; 
+    background-color: rgb(216, 11, 11); 
+    padding: 20px 20px; 
+    border-radius: 200px; 
+     display:inline-flex;  
+} 
+.download{ 
+    background-color:skyblue; 
+    padding: 20px 20px; 
+    border-radius: 200px; 
+    color: black; 
+    display: inline-flex;  
+} 
+.section-two{ 
+    background-color: rgba(181, 89, 13, 0.242); 
+    justify-content: center; 
+} 
+.head{ 
+    text-align: center; 
+    padding: 25px; 
+    font-weight: 900; 
+} 
+.skills{ 
+    flex-wrap: wrap;  
+    display:flex;  
+   justify-content: space-evenly; 
+} 
+.box{ 
+    background-color: white; 
+    width: 200px; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    padding: 5px; 
+     
+} 
+.section-three{ 
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 50px; 
+} 
+.section-three li{ 
+    list-style:none ; 
+    border: 10px solid white; 
+    padding-left: 20px; 
+} 
+.study{ 
+    display: table-cell; 
+    list-style:none ; 
+    width: 600px; 
+    background-color: #edefef; 
+}  
+div>ul{ 
+    padding-left: 0px; 
+}  
+.section-four{ 
+    background-color:  #edefef; 
+    justify-content: center; 
+    padding-bottom: 30px; 
+ 
+} 
+.section-four h3{ 
+    text-align: center; 
+    padding: 25px 0px 10px; 
+} 
+.images{ 
+    display: flex;  
+    justify-content: center;  
+    flex-wrap: wrap; 
+    width:90%; 
+    margin: auto; 
+} 
+.images img{ 
+   max-width: 100%;  
+   padding: 5px; 
+    /* display: flex;  */ 
+} 
+.cart{ 
+    width:33.33333%; 
+ 
+    
+}  
+.section-five{ 
+    background-color: black;  
+    padding-bottom: 30px;   
+} 
+.section-five div{ 
+    display: flex; 
+    justify-content: center; 
+    color: white; 
+} 
+.section-five img{ 
+    width: 100px; 
+    padding: 50px 0px 20px;  
+}
